@@ -94,10 +94,12 @@ const endGame = () => {
   if (CPSCORE == 2) {
     let winnerRn = document.getElementById("displayWinnerRn");
     winnerRn.style.display = "flex";
-  } else {
-    let winnerCp = document.getElementById("displayWinnerCp");
-    winnerCp.style.display = "flex";
   }
+  if (SCORE == 2) {
+    let winnerRn = document.getElementById("displayWinnerUser");
+    winnerRn.style.display = "flex";
+  }
+
 }
 
 
