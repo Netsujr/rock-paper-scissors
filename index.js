@@ -91,6 +91,8 @@ const endGame = () => {
     contest.style.display = "none";
     let hands = document.querySelector(".hands");
     hands.style.display = "none";
+    let winner = document.getElementById("displayWinner");
+    winner.style.display = "flex";
   }
 }
 
@@ -107,28 +109,3 @@ const setCPScore = (cpNewScore) => {
   CPSCORE = cpNewScore;
   document.querySelector(".cpscore h1").innerText = cpNewScore;
 }
-
-// End Game
-// let isGameOver = (score) => {
-//   if (SCORE === 2 || CPSCORE === 2) {
-//     return true;
-//   }
-//   return false;
-// }
-
-// function gameOver() {
-//   let winner = SCORE === 2 ? user[0] : user[1];
-//   console.log(winner);
-// }
-
-// function theFunctionThatChangesTheScores() {
-//   // after the code that changes the score
-//   if (isGameOver()) {
-//     // you can code in this block, but ideally.
-//     // create another function and call it:
-//     return gameOver();
-//   }
-//   return console.log("game is still on");
-// }
-
-// theFunctionThatChangesTheScores();

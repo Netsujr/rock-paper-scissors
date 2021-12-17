@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.winner {
+  display: none;
+}
+
+.winner img {
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+}
+
 body {
   font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
