@@ -13,8 +13,10 @@ body {
   flex-direction: column;
   align-items: center;
   background: radial-gradient(134.34% 134.34% at 50% 0%, #1f3757 0%, #131537 100%);
-  width: 100%;
-  height: 100%;
+  width: 100wh;
+  height: 100vh;
+  /* use vh/vw no % as when the hands disapaer,
+  100% means only the size of the score board  */
 }
 
 .scoreboard {
@@ -26,6 +28,7 @@ body {
   height: 150px;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .score {
