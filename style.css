@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Prompt', sans-serif;
+  text-transform: uppercase;
 }
 
 .game-container {
@@ -80,5 +81,56 @@ body {
 
 .hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
+
+}
+
+.contest {
+  width: 900px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.contest img {
+  width: 275px;
+  height: 275px;
+
+}
+
+.contest > div {
+  flex: 1;
+
+}
+
+.contest h1 {
+  color: white;
+  font-size: 20x !important;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contest .handImageContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.referee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.referee h1 {
+  font-size: 45px;
+
+}
+
+.newGame {
+  background-color: white;
+  border-radius: 5px;
+  padding: 12px 24px;
 
 }
