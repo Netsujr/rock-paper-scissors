@@ -15,6 +15,6 @@ const pickUserHand = (hand) => {
   contest.style.display = "flex";
 
   // setting user pick
-  document.getElementById("userPickImage").src = handOptions(hand);
+  document.getElementById("userPickImage").src = handOptions[hand];
 
 }
