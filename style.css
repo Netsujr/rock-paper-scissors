@@ -81,24 +81,21 @@ body {
 
 .hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
-
 }
 
 .contest {
   width: 900px;
-  display: flex;
+  display: none;
   margin-top: 50px;
 }
 
 .contest img {
   width: 275px;
   height: 275px;
-
 }
 
 .contest > div {
   flex: 1;
-
 }
 
 .contest h1 {
@@ -132,5 +129,12 @@ body {
   background-color: white;
   border-radius: 5px;
   padding: 12px 24px;
+  cursor: pointer;
+  color: hsl(229, 25%, 31%);
+  transition: all 200ms ease;
+}
 
+.newGame:hover {
+  background-color: ivory;
+  transform: translate3d(0px, -3px, 0px);
 }
