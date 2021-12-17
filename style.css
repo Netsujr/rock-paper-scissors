@@ -12,9 +12,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
   background: radial-gradient(134.34% 134.34% at 50% 0%, #1f3757 0%, #131537 100%);
+  width: 100%;
+  height: 100%;
 }
 
 .scoreboard {
@@ -56,4 +56,26 @@ body {
   font-weight: 600;
   line-height: 10px;
   letter-spacing: 2px;
+}
+
+.hands {
+  background-image: url(assets/triangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 475px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.hands .hand {
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.hands .hand:hover {
+  transform: translate3d(0px, -8px, 0px);
+
 }
