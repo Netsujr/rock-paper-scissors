@@ -42,20 +42,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .score h1 {
   color: #565468;
   font-size: 56px;
-  margin-bottom: -25px;
+  position: relative;
+  top: 25px;
 }
 
 .score p {
   color: #565468;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 600;
-  line-height: 10px;
+  line-height: 20px;
   letter-spacing: 2px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
 }
 
 .cpscore {
@@ -68,20 +73,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .cpscore h1 {
   color: #565468;
   font-size: 56px;
-  margin-bottom: -25px;
+  position: relative;
+  top: 25px;
 }
 
 .cpscore p {
   color: #565468;
   font-size: 20px;
   font-weight: 600;
-  line-height: 10px;
+  line-height: 20px;
   letter-spacing: 2px;
+  text-align: center;
+  position: absolute;
+  top: 5px;
 }
 
 .title {
