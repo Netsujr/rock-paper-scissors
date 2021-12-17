@@ -88,13 +88,18 @@ const restartGame = () => {
 const endGame = () => {
   if (SCORE === 2 || CPSCORE === 2) {
     let contest = document.querySelector(".contest");
-    contest.style.display = "none";
     let hands = document.querySelector(".hands");
-    hands.style.display = "none";
-    let winner = document.getElementById("displayWinner");
-    winner.style.display = "flex";
+    contest.style.display = "none"; hands.style.display = "none";
+  }
+  if (CPSCORE == 2) {
+    let winnerRn = document.getElementById("displayWinnerRn");
+    winnerRn.style.display = "flex";
+  } else {
+    let winnerCp = document.getElementById("displayWinnerCp");
+    winnerCp.style.display = "flex";
   }
 }
+
 
 const setDecision = (decision) => {
   document.querySelector(".decision h1").innerText = decision;
