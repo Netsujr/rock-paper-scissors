@@ -86,21 +86,22 @@ const restartGame = () => {
 }
 
 const endGame = () => {
-  if (SCORE === 2 || CPSCORE === 2) {
+  if (SCORE === 3 || CPSCORE === 3) {
     let contest = document.querySelector(".contest");
     let hands = document.querySelector(".hands");
     contest.style.display = "none"; hands.style.display = "none";
   }
-  if (CPSCORE == 2) {
+  if (CPSCORE == 3) {
     let winnerRn = document.getElementById("displayWinnerRn");
     winnerRn.style.display = "flex";
   }
-  if (SCORE == 2) {
+  if (SCORE == 3) {
     let winnerRn = document.getElementById("displayWinnerUser");
     winnerRn.style.display = "flex";
   }
 }
 // array of pictures for the winner
+// array of pictures for the winner . sample
 
 
 const setDecision = (decision) => {
