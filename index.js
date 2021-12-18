@@ -99,8 +99,8 @@ const endGame = () => {
     let winnerRn = document.getElementById("displayWinnerUser");
     winnerRn.style.display = "flex";
   }
-
 }
+// array of pictures for the winner
 
 
 const setDecision = (decision) => {

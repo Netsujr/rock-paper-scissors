@@ -25,6 +25,10 @@
         <h1>0</h1>
       </div>
     </div>
+    <div class="rules">
+      <h2>First to 3 wins</h2>
+      <hr>
+    </div>
     <div class="hands">
       <div class="paper hand">
         <img src="/paper.png" alt="Paper" onclick="pickUserHand('paper'); endGame();">
@@ -56,12 +60,12 @@
       </div>
     </div>
     <div id="displayWinnerRn" class="winner">
+      <h2 class="renatoWins"> I win! 😏 </h2>
       <img src="renato.jpg" alt="renatoWinner">
-      <h2 class="renatoWins"> I win!</h2>
     </div>
-    <div id="displayWinnerUser" class="CPwinner">
-      <img src="userWin.JPG" alt="userWinner">
-      <h2 class="userWins"> You win 😕</h2>
+    <div id="displayWinnerUser" class="winner">
+      <h2 class="userWins"> You win! 🙃</h2>
+      <img src="userWinner.gif" alt="userWinner">
     </div>
   </div>
   <script src="/index.js"></script>
