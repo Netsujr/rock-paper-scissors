@@ -42,6 +42,7 @@
 body {
   font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
+
 }
 
 .game-container {
@@ -49,8 +50,8 @@ body {
   flex-direction: column;
   align-items: center;
   background: radial-gradient(134.34% 134.34% at 50% 0%, #1f3757 0%, #131537 100%);
-  width: 100wh;
-  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
   /* use vh/vw no % as when the hands disapaer,
   100% means only the size of the score board  */
 }
